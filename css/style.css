@@ -1,0 +1,119 @@
+body {
+    background: rgba(36, 36, 36);
+}
+
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* MENU */
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    background: rgba(0, 0, 0, 0.05);
+    border-bottom: solid 2px #FD9916;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Trirong", serif;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.534);
+}
+
+#header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(#34A0ED ,#2662E3 35%);
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #btn-mobile {
+        display: block;
+    }
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        top: 70px;
+        right: 0;
+        background: linear-gradient(#2662E3, #34A0ED);
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        display: block;
+        z-index: 1000;
+    }
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a {
+        padding: 1rem 0;
+        margin: 0px 1rem;
+        border-bottom: 2px solid #FD9916;
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+        color: #FD9916;
+    }
+    #btn {
+        width: 20px;
+        border-top: 2px solid;
+        display: block;
+    }
+    #btn::after, #btn::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #btn {
+        border-top-color: transparent;
+    }
+    #nav.active #btn::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #btn::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}

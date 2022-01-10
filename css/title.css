@@ -1,0 +1,26 @@
+.title {
+    max-width: 480px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.title::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: cursor .7s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
