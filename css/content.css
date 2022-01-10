@@ -1,0 +1,72 @@
+.container h1, h2 a {
+    font-family: industry, monospace;
+    color: #FD9916;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container h2 {
+    color: #2662E3;
+}
+
+.container p {
+    font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: white;
+}
+
+section {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+section::after, section::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.grid-text {
+    width: calc(60% - 40px);
+}
+
+.grid-img {
+    width: calc(40% - 40px);
+}
+
+section > div {
+    margin: 0 20px;
+    float: left;
+}
+
+section img {
+    margin-top: 20px;
+}
+
+.img-right {
+    text-align: right;
+}
+
+.container a {
+    display: block;
+    max-width: 120px;
+    text-align: center;
+    border: 2px solid;
+    text-decoration: none;
+    padding: 8px 20px 10px 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.container a:hover {
+    background: #FD9916;
+    color: white;
+}
+
+.contentBox {
+    opacity: 1;
+}
