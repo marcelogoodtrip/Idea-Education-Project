@@ -19,9 +19,14 @@
     color: white;
 }
 
+.container small {
+    font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
 section {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 section::after, section::before {
@@ -35,7 +40,7 @@ section::after, section::before {
 }
 
 .grid-img {
-    width: calc(40% - 40px);
+    width: calc(50% - 40px);
 }
 
 section > div {
@@ -45,6 +50,11 @@ section > div {
 
 section img {
     margin-top: 20px;
+}
+
+.img2 {
+    border-top: 1px solid rgb(199, 194, 194);
+    border-bottom: 1px solid rgb(199, 194, 194);
 }
 
 .img-right {
