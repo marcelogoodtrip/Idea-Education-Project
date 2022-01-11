@@ -1,3 +1,9 @@
+section {
+    background: linear-gradient(#2662E3, #34A0ED);
+    border-radius: 5px;
+    padding: 20px;
+}
+
 .container h1, h2 a {
     font-family: industry, monospace;
     color: #FD9916;
@@ -25,6 +31,15 @@
     line-height: 0.9em;
     color: white;
 }
+
+.center {
+    text-align: center;
+    font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 0.9em;
+    color: white;
+}
+
 
 .container small {
     font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;

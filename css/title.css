@@ -3,7 +3,7 @@
     text-align: center;
     margin: 30px auto;
     font-family: 'Courier New', Courier, monospace;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .title::after {
