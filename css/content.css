@@ -75,8 +75,10 @@ section::after, section::before {
 
 .flex > div {
     flex: 1 1 200px;
-    margin: 10px;
+    margin: 5px;
 }
+
+
 
 section > div {
     margin: 0 20px;
