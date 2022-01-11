@@ -12,16 +12,24 @@
     color: #2662E3;
 }
 
-.container p {
+.container h3 {
     font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
     font-size: 1.2em;
     line-height: 1.4em;
     color: white;
 }
 
+.container p {
+    font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+    line-height: 0.9em;
+    color: white;
+}
+
 .container small {
     font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
     color: white;
+    font-size: 0.6em;
 }
 
 section {
