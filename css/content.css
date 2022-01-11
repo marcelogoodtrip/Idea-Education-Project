@@ -1,8 +1,4 @@
-section {
-    background: linear-gradient(#2662E3, #34A0ED);
-    border-radius: 5px;
-    padding: 20px;
-}
+
 
 .container h1, h2 a {
     font-family: industry, monospace;
@@ -22,14 +18,14 @@ section {
     font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
     font-size: 1.2em;
     line-height: 1.4em;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .container p {
     font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
     font-size: 1.0em;
     line-height: 0.9em;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .center {
@@ -37,13 +33,13 @@ section {
     font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     line-height: 0.9em;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
 .container small {
     font-family: "Proxima Nova Soft", Helvetica, Arial, sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 0.6em;
 }
 
