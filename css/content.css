@@ -43,6 +43,18 @@ section::after, section::before {
     width: calc(50% - 40px);
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
 section > div {
     margin: 0 20px;
     float: left;
@@ -59,6 +71,11 @@ section img {
 
 .img-right {
     text-align: right;
+}
+
+.pa-img{
+    width: 20%;
+    align-content: inline;
 }
 
 .container a {
