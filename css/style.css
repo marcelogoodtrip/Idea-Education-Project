@@ -21,7 +21,7 @@ a {
 }
 
 #menu a:hover {
-    background: rgba(0, 0, 0, 0.05);
+    font-size: 1.1em;
     border-bottom: solid 2px #FD9916;
 }
 

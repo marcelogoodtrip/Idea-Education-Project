@@ -1,6 +1,7 @@
 .container h1, h2 a {
     font-family: industry, monospace;
     color: #FD9916;
+    
 }
 
 .container a {
@@ -32,7 +33,7 @@
     font-size: 2.0em;
     line-height: 0.9em;
     color: #2662E3;
-    text-shadow: 2px 2px 1px rgba(250, 129, 16, 0.671);
+    
 }
 
 .container small {
