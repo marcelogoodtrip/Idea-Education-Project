@@ -1,7 +1,10 @@
+.icon25 {
+    width: 50%;
+}
+
 .container h1, h2 a {
     font-family: industry, monospace;
     color: #FD9916;
-    
 }
 
 .container a {
