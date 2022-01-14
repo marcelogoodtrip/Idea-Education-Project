@@ -4,9 +4,9 @@ img {
 }
 
 .slide {
-
-    margin:20px auto;
+    margin: auto;
     display: grid;
+    margin-top: 5px;
 }
 
 .slide-items {
