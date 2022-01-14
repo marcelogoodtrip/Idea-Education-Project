@@ -2,6 +2,15 @@
     padding: 5%;
 }
 
+.sec2 {
+    max-width: 1200px;
+    marg
+}
+
+.sec2 h1 {
+    text-align: center;
+}
+
 .aws {
     width: 60vh;
     padding-left: 35%;
