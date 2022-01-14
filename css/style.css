@@ -19,7 +19,7 @@ a {
 .hr-color {
     color: #FD9916;
 }
-
+ 
 #menu a:hover {
     font-size: 1.1em;
     border-bottom: solid 2px #FD9916;
@@ -40,7 +40,7 @@ a {
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(#34A0ED ,#2662E3 35%);
-    border-bottom: solid 2px #FD9916;
+    border-bottom: solid 5px #FD9916;
     box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
 }
 
