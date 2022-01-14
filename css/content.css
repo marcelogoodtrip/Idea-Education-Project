@@ -4,13 +4,16 @@
 
 .sec2 {
     display: flex;
-    max-width: 300px;
+    max-width: 100%;
     margin: 0 auto;
-    border-bottom: solid 5px #FD9916;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.sec2 > div {
+.sec2 > div:nth-child(1) {
     text-align: center;
+    border-bottom: solid 5px #FD9916;
 }
 
 .sec2 h1 {
@@ -23,6 +26,11 @@
     mix-blend-mode: normal;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: 15px;
+
+}
+
+.sec2 div:nth-child(2) {
+    
 }
 
 .aws {
