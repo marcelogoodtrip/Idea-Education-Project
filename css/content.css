@@ -2,6 +2,11 @@
     padding: 5%;
 }
 
+hr {
+    max-width: 80%;
+    padding: 30px auto;
+}
+
 .sec2 {
     display: flex;
     max-width: 100%;
@@ -39,8 +44,7 @@
 
 .aws {
     width: 60vh;
-    padding-left: 35%;
-    padding-top: 5vh;
+    padding-left: 35%;  
 }
 
 .icon {
@@ -135,6 +139,11 @@
     .icon{
         width: 40%;
         margin-left: -5%;
+    }
+
+    .aws {
+        padding-left: 35%;
+        padding-top: 20%;  
     }
 
     .flex {
