@@ -6,7 +6,7 @@ img {
 .slide {
     margin: auto;
     display: grid;
-    margin-top: 5px;
+    padding-top: 5%;
 }
 
 .slide-items {
@@ -73,5 +73,13 @@ img {
 @keyframes thumb {
     to {
         transform: initial;
+    }
+}
+
+@media (max-width: 630px) {
+    .slide {
+        margin: auto;
+        display: grid;
+        padding-top: 17%;
     }
 }

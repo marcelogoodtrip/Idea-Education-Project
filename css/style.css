@@ -1,5 +1,7 @@
 body {
     background: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 body, ul {
@@ -14,10 +16,6 @@ a {
     text-decoration: none;
     font-family: sans-serif;
     font-weight: bold;
-}
-
-.hr-color {
-    color: #FD9916;
 }
  
 #menu a:hover {
@@ -34,7 +32,7 @@ a {
 
 #header {
     box-sizing: border-box;
-    height: 70px;
+    height: 80px;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -42,6 +40,9 @@ a {
     background: linear-gradient(#34A0ED ,#2662E3 35%);
     border-bottom: solid 5px #FD9916;
     box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    overflow: visible;
 }
 
 #menu {
