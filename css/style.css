@@ -43,7 +43,6 @@ a {
     position: fixed;
     width: 100%;
     overflow: visible;
-  
 }
 
 #menu {
@@ -61,7 +60,23 @@ a {
     display: none;
 }
 
-@media (max-width: 630px) {
+#footer {
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#34A0ED ,#2662E3 35%);
+    border-top: solid 5px #FD9916;
+    box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4); 
+}
+
+.footer-aws {
+    padding-top: 80px;
+    width: 25%;
+}
+
+@media (max-width: 710px) {
     #btn-mobile {
         display: block;
     }
