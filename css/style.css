@@ -14,40 +14,39 @@ body, ul {
 a {
     color: white;
     text-decoration: none;
-    font-family: "Monofur", serif;
-    font-size: 1.3em;
+    font-family: "Quicksand";
+    font-size: 1.5em;
     font-weight: bold;
 }
  
 #menu a:hover {
-    font-size: 1.5em;
+    font-size: 1.8em;
     border-bottom: solid 2px #FD9916;
 }
 
 #logo {
-    font-size: 2.0rem;
-    font-family: "Monofur", serif;
+    font-family: 'Acme';
     font-style: normal;
-    font-weight: normal;
-    line-height: 93px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 
-                 0px 4px 4px rgba(0, 0, 0, 0.25), 
-                 0px 4px 4px rgba(0, 0, 0, 0.25), 
-                 0px 4px 4px rgba(0, 0, 0, 0.25);  
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #header {
     box-sizing: border-box;
     max-height: 80px;
-    padding: 1rem;
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(#34A0ED ,#2662E3 35%);
-    border-bottom: solid 5px #FD9916;
-    box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
-    position: fixed;
+    background: #0091ff;
+    /**box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+    position: fixed;**/
     width: 100%;
     overflow: visible;
 }
@@ -133,7 +132,7 @@ a {
     font-weight: lighter;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
     #btn-mobile {
         display: block;
     }
@@ -144,7 +143,7 @@ a {
         height: 0px;
         top: 70px;
         right: 0;
-        background: linear-gradient(#2662E3, #34A0ED);
+        background: #0065B3;
         transition: .6s;
         visibility: hidden;
         overflow-y: hidden;
