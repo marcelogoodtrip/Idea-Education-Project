@@ -17,7 +17,7 @@ hr {
     margin: 0 auto;
     
     background: #0091ff;
-    border-bottom: 3px solid #FD9916;
+    border-bottom: 6px solid #FD9916;
     
     font-family: 'Quicksand';
     font-style: normal;
@@ -58,7 +58,7 @@ hr {
 
 .idea-icon {
     padding: 16px;
-    width: 12%;
+    width: 10%;
 }
 
 .icon {
@@ -70,7 +70,7 @@ hr {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1300px;
+    max-width: 80%;
     margin: 0 auto; 
 }
 
@@ -105,7 +105,7 @@ hr {
 .flex2 {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto; 
     color: #676767;
 }

@@ -21,7 +21,7 @@ a {
  
 #menu a:hover {
     font-size: 1.8em;
-    border-bottom: solid 2px #FD9916;
+    border-bottom: solid 3px #FD9916;
 }
 
 #logo {
@@ -149,6 +149,18 @@ a {
         overflow-y: hidden;
         display: block;
         z-index: 1000;
+    }
+    #logo {
+        font-family: "Acme";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+    
+        color: #FFFFFF;
+    
+        mix-blend-mode: normal;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     #nav.active #menu {
         height: calc(100vh - 70px);
