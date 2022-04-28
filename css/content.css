@@ -4,8 +4,8 @@
 
 hr {
     max-width: 80%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 .banner {
@@ -19,12 +19,12 @@ hr {
     background: #0091ff;
     border-bottom: 6px solid #FD9916;
     
-    font-family: 'Quicksand';
+    /*font-family: 'Quicksand';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 72px;
-    mix-blend-mode: normal;
+    mix-blend-mode: normal;*/
 }
 
 .banner > div {
@@ -224,12 +224,12 @@ hr {
         background: #0091ff;
         border-bottom: 3px solid #FD9916;
     
-        font-family: 'Quicksand';
+        /*font-family: 'Quicksand';
         font-style: normal;
         font-weight: 700;
         font-size: 22px;
         line-height: 28px;
-        mix-blend-mode: normal;
+        mix-blend-mode: normal;*/
     }
 
     .banner > div {
@@ -242,6 +242,7 @@ hr {
     
     .banner > div:nth-child(2) {
         width: 100%;
+        margin-top: -40px;
     }
 
     .aws-content {

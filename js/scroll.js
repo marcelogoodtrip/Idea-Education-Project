@@ -9,11 +9,34 @@ menuItems.forEach(item => {
 function scrollToIdOnClick(event) {
     event.preventDefault();
     const element = event.target;
-    const id = element.getAttribute('href');
-    const to = document.querySelector(id).offsetTop;
+    const to = getScrollToByHref(event.target);
 
+    if(event.type === 'touchstart') {
+        event.preventDefault();
+    }
+    
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+    const active = nav.classList.contains('active');
+    event.currentTarget.setAttribute('aria-expanded', 'true');
+
+    if(active) {
+        event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+    } else {
+        event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+    }
+
+    scrollToPosition(to);
+}
+
+function scrollToPosition(to) {
     window.scroll({
         top: to,
         behavior: "smooth",
     });
+}
+
+function getScrollToByHref(element) {
+    const id = element.getAttribute('href');
+    return document.querySelector(id).offsetTop;
 }
