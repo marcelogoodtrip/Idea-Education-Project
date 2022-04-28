@@ -22,8 +22,6 @@ function scrollToIdOnClick(event) {
 
     if(active) {
         event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
-    } else {
-        event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
     }
 
     scrollToPosition(to);

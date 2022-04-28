@@ -213,6 +213,12 @@ hr {
         padding: 2%;
     }
 
+    hr {
+        max-width: 100%;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
     .banner {
         height: 500px;
         padding: 16px;

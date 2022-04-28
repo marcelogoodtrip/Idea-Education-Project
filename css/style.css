@@ -201,11 +201,11 @@ a {
         text-align: center;
         padding: 1rem 0;
         margin: 0px 1rem;
-        border-bottom: 2px solid #FD9916;
+        border-bottom: 2px solid #B36B00;
     }
     #menu a:hover {
         color: white;
-        background-color: #FD9916;
+        background-color: #B36B00;
         font-size: 1.8em;
      
     }
