@@ -3,7 +3,7 @@
 }
 
 hr {
-    max-width: 80%;
+    max-width: 100%;
     margin-top: 64px;
     margin-bottom: 64px;
 }
@@ -58,6 +58,7 @@ section {
 .sec1 > h1 {
     font-weight: 700;
     font-size: 44px;
+    border-bottom: 3px solid #FD9916;
 }
 
 .sec1 > p {
@@ -88,10 +89,20 @@ section {
     line-height: 32px;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex > div {
+    flex: 1 1 40%;
+    margin: 10px;
+}
+
 .sub-part {
     margin-left: 16%;
     margin-right: 16%;
-
+    
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -102,14 +113,35 @@ section {
     padding: 16px;
 }
 
-.sub-part > h1 {
-    font-size: 60px;
-}
-
 .sub-part > div:nth-child(1) {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.sub-part h1 {
+    font-size: 32px;
+    border-bottom: 3px solid #FD9916;
+    padding: 8px;
+}
+
+.sub-part h2 {
+    padding-top: 16px;
+    font-weight: 600;
+    font-size: 22px;
+    
+}
+
+.sub-part > div:nth-child(2) {
+    display: flex;
+    justify-content:center;
+    text-align: left;
+    padding: 64px;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 32px;
+}
+
 
 @media (max-width: 810px) {
     .container {
