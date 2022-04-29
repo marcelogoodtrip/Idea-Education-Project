@@ -20,7 +20,7 @@ a {
 }
  
 #menu a:hover {
-    color: #0091ff;
+    color: #FD9916;
     font-size: 1.8em;
 }
 
@@ -119,8 +119,8 @@ a {
         top: 60px;
         right: 0;
         padding-top: 32px;
-        background: #B36B00;
-        border-bottom: 3px solid #0065B3;
+        background: #0065B3;
+        border-bottom: 3px solid #FD9916;
         opacity: 0.95;
         transition: .6s;
         visibility: hidden;
@@ -141,7 +141,7 @@ a {
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     #nav.active #menu {
-        height: calc(550px);
+        height: calc(600px);
         visibility: visible;
         overflow-y: auto;
     }
@@ -153,7 +153,7 @@ a {
     }
     #menu a:hover {
         color: white;
-        background-color: #0065B3;
+        background-color: #B36B00;
         font-size: 1.8em;
     }
     #btn-mobile {

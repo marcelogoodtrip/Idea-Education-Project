@@ -21,9 +21,10 @@ function scrollToIdOnClick(event) {
     event.currentTarget.setAttribute('aria-expanded', 'true');
 
     if(active) {
+        event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+    } else {
         event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
     }
-
     scrollToPosition(to);
 }
 
