@@ -9,7 +9,7 @@ hr {
 }
 
 .banner {
-    height: 500px;
+    height: 600px;
     padding: 16px;
     
     display: flex;
@@ -155,7 +155,7 @@ hr {
 
 .sec2 h1 {
     height: 50px;
-    font-family: "Quicksand", serif;
+    font-family: "Acme", serif;
     font-size: 7vh;
     line-height: 105px;
     font-weight: 600;
@@ -169,8 +169,15 @@ hr {
 }
 
 .sec2 img {
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
+    border: 1px solid black;
+}
+
+.sec2 img:hover {
+    border-radius: 20px;
+    width: 100%;
+    opacity: 0.8;
 }
 
 .flex3 {
