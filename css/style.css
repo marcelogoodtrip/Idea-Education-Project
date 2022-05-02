@@ -24,6 +24,18 @@ a {
     font-size: 1.8em;
 }
 
+#cf a:hover {
+    color: #0091ff;
+}
+
+#ca a:hover {
+    color: #FD9916;
+}
+
+#ml a:hover {
+    color: #FD9916;
+}
+
 #logo {
     font-family: "Acme";
     font-style: normal;
