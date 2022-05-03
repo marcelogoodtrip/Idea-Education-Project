@@ -45,6 +45,35 @@ hr {
     
 }
 
+#btn-insc {
+    display: inline-block;
+    position:relative;
+    top: -5vh;
+    right: 80px;
+
+    color: white;
+    background-color:#0091ff;
+    border: none;
+    border-radius: 250px;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    font-family: "Acme";
+    font-size: 2em;
+    font-weight: bold;
+
+    float: right;
+    cursor: pointer;
+}
+
+#btn-insc:hover {
+    background-color: #58b3f8;
+    font-size: 2.1rem;
+}
+
 section {
     margin-left: 8%;
     margin-right: 8%;
