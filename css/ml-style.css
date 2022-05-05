@@ -21,6 +21,8 @@ a {
  
 #menu a:hover {
     border-bottom: 3px solid #FD9916;
+    margin-bottom: -3px;
+    font-size: 1.7em;
 }
 
 #logo {
@@ -47,6 +49,25 @@ a {
     width: 100%;
     overflow: visible;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 16px;
+
+    background-color: #00457A;
+    border-bottom: 3px solid #FD9916;
+}
+
+#idea-logo img {
+    width: 50%;
+}
+
+#decalc img {
+    width: 60%;
 }
 
 #menu {
@@ -83,13 +104,13 @@ a {
 .ft-content h1 {
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: "QuickSand", serif;
+    font-family: "Abel", serif;
     font-size: 2.5em;
 }
 
 .footer > a {
     padding-top: 8px;
-    font-family: "QuickSand", serif;
+    font-family: "Abel", serif;
 }
 
 .ft-icons {
@@ -116,7 +137,7 @@ a {
         position: absolute;
         width: 100%;
         height: 0px;
-        top: 70px;
+        top: 120px;
         right: 0;
         padding-top: 32px;
         background: #0065B3;
@@ -127,6 +148,9 @@ a {
         overflow-y: hidden;
         display: block;
         z-index: 1000;
+    }
+    #decalc {
+        display: none;
     }
     #logo {
         font-style: normal;
@@ -154,6 +178,11 @@ a {
         color: white;
         background-color: #B36B00;
         font-size: 1.8em;
+    }
+    #btn-insc {
+        position:none;
+        float: 0;
+        right: 0;
     }
     #btn-mobile {
         display: flex;

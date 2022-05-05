@@ -46,10 +46,9 @@ hr {
 }
 
 #btn-insc {
-    display: inline-block;
     position:relative;
     top: -5vh;
-    right: 80px;
+    right: 200px;
 
     color: white;
     background-color:#FD9916;
@@ -65,7 +64,7 @@ hr {
     font-size: 2em;
     font-weight: bold;
 
-    float: right;
+    float:right;
     cursor: pointer;
 }
 
@@ -285,6 +284,19 @@ section {
     .head-img {
         width: 100%;
     }
+
+    #btn-insc {
+        position:none;
+        float: 0;
+        right: 0;
+    }
+
+    .btn-insc-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 
     .flex-row {
         display: flex;

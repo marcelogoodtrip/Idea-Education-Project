@@ -46,10 +46,9 @@ hr {
 }
 
 #btn-insc {
-    display: inline-block;
     position:relative;
     top: -5vh;
-    right: 80px;
+    right: 200px;
 
     color: white;
     background-color:#B36B00;
@@ -65,12 +64,12 @@ hr {
     font-size: 2em;
     font-weight: bold;
 
-    float: right;
+    float:right;
     cursor: pointer;
 }
 
 #btn-insc:hover {
-    background-color: #b4843b;
+    background-color: #b18037;
     font-size: 2.1rem;
 }
 
@@ -241,6 +240,18 @@ section {
     .banner > div:nth-child(2) {
         width: 100%;
         margin-top: -40px;
+    }
+
+    #btn-insc {
+        position:none;
+        float: 0;
+        right: 0;
+    }
+
+    .btn-insc-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .sec1 > h1 {

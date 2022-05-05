@@ -42,6 +42,10 @@ hr {
     
 } 
 
+.head-img {
+    width: 50%;
+}
+
 .aws-content {
     max-width: 100%;
     display: flex;
