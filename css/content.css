@@ -155,7 +155,7 @@ hr {
 
 .sec2 h1 {
     height: 50px;
-    font-family: "Acme", serif;
+    font-family: "Abel", serif;
     font-size: 7vh;
     line-height: 105px;
     font-weight: 600;
@@ -192,10 +192,10 @@ hr {
 .cursos > div {
     flex: 1 1 300px;
     margin: 1%;
+    align-items: center;
 }
 
 .cursos div {
-    
     padding: 8px;
 }
 
@@ -228,10 +228,10 @@ hr {
 
 .sec3 h1 {
     height: 50px;
-    font-family: "Acme", serif;
+    font-family: "Abel", serif;
     font-size: 7vh;
     line-height: 105px;
-    font-weight: 600;
+    font-weight: 700;
     mix-blend-mode: normal;
     margin-left: 5px;
 }
@@ -254,6 +254,7 @@ hr {
 .cons > div {
     flex: 1 1 300px;
     margin: 1%;
+    align-items: center;
 }
 
 .cons div {
@@ -494,7 +495,6 @@ hr {
 
     .sec2 h1 {
         height: 50px;
-        font-family: "Acme", serif;
         font-size: 1.5rem;
         line-height: 105px;
         font-weight: 400;
@@ -515,10 +515,9 @@ hr {
 
     .sec3 h1 {
         height: 50px;
-        font-family: "Acme", serif;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 105px;
-        font-weight: 400;
+        font-weight: 700;
         mix-blend-mode: normal;
         margin-left: 5px;
     }

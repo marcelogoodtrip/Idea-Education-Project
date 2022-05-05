@@ -14,18 +14,17 @@ body, ul {
 a {
     color: white;
     text-decoration: none;
-    font-family: "Acme";
+    font-family: "Abel";
     font-size: 1.5em;
     font-weight: bold;
 }
  
 #menu a:hover {
-    color: #FD9916;
-    font-size: 1.8em;
+    border-bottom: 3px solid #FD9916;
 }
 
 #logo {
-    font-family: "Acme";
+    font-family: "Abel";
     font-style: normal;
     font-weight: 400;
     font-size: 44px;
@@ -130,7 +129,6 @@ a {
         z-index: 1000;
     }
     #logo {
-        font-family: "Acme";
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
